@@ -1,0 +1,236 @@
+@media screen and (max-width:480px) {
+
+    #first_nav{
+        display: block;
+    }
+    #third_inner_nav {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        width: 17%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    #edit {
+        width: 5vw;
+        height: 90%;
+        display: block;
+        /* border: 1px solid red; */
+    }
+    
+    #edit i {
+        padding: 35px 20px;
+    }
+    
+    #third_inner_nav>div:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+        border-bottom: 5px solid red;
+    }
+    #third_inner_nav>div:nth-child(2) {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #third_inner_nav>div:nth-child(3) {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #third_inner_nav>div:nth-child(4) {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #third_inner_nav>div:nth-child(5) {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #first_tab {
+        background-size: 400px 500px;
+    }
+    #movie_info{
+        width: 83vw;
+        height: 100vh;
+        /* border: 1px solid white; */
+        margin: 20% 10%;
+    }
+    #name {
+        width: 100%;
+        height: 5vh;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+    }
+    #rating {
+        width: 100%;
+        height: 5vh;
+        margin-bottom: 10px;
+        font-size: 20px;
+        /* font-weight: 500; */
+        color: white;
+    }
+    #action {
+        width: 100%;
+        height: 5vh;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .action {
+        width: 20vw;
+        height: 6vh;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .action p {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 6px;
+    }
+    #booking {
+        width: 100%;
+        /* height: 5vh; */
+        margin-bottom: 10px;
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    #watchlist {
+        width:40%;
+        height: 7vh;
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        color: white;
+    }
+    
+    #watchlist i {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    
+    #watchlist p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    #ticket {
+        width: 40%;
+        height: 7vh;
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        color: white;
+    }
+    
+    #ticket i {
+        font-size:12px;
+        padding-right: 20px;
+    }
+    #ticket p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #second_tab {
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(4, 11, 39);
+    }
+    #inner_lang {
+        width: 100%;
+        height: 90%;
+        margin: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .language {
+        width: 10vw;
+        height: 100%;
+        border: 1px solid red;
+    }
+
+    #inner_lang>div:nth-child(1) {
+        font-size:1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+        border-bottom: 5px solid red;
+    }
+    #inner_lang>div:nth-child(2) {
+        font-size:1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #inner_lang>div:nth-child(3) {
+        font-size:1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #inner_lang>div:nth-child(4) {
+        font-size:1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #inner_lang>div:nth-child(5) {
+        font-size:1rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    #movie_list {
+        width: 90%;
+        border: 1px solid red;
+        margin: auto;
+        /*display: flex;
+        justify-content: space-around;
+        margin-top: 10px; */
+        flex-direction: column;
+    }
+    .movie_list {
+        width: 100%;
+        height: 80vh;
+        background-color: white;
+        border-radius: 10px;
+        /* border: 1px solid red; */
+    }
+}
